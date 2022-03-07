@@ -1,4 +1,4 @@
-[Demo Video](assets/demo.mp4)
+[Demo Video](https://raw.githubusercontent.com/lustea00/jubelio_test/main/assets/demo.mp4)
 
 
 ###  Requirements
