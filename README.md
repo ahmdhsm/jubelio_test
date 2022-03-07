@@ -21,7 +21,7 @@ ___
 ### Project Structure
 |Directory|Description|
 |--|--|
-| [lib/config] | To handle config and constant function |
-| [lib/page] | To display page in this app |
-| [lib/service] | To handle service in this app |
+| [lib/config](lib/config) | To handle config and constant function |
+| [lib/page](lib/page) | To display page in this app |
+| [lib/service](lib/service) | To handle service in this app |
 
