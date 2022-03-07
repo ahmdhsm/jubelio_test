@@ -1,6 +1,10 @@
 ###  Requirements
 - Flutter version 2.8.1
-- Dart version 2.8.1
+- Dart version 2.15.1
+___
+### Machine information
+- [flutter --version output](flutter_version.md){:target="_blank" rel="noopener"}
+- [flutter doctor output](flutter_doctor.md){:target="_blank" rel="noopener"}
 ___
 ### How to run this project
 - Clone this git repository
@@ -12,7 +16,7 @@ ___
 - If no error show, app should be displayed on emulator/phone.
 ___
 ### Project explanation
-- This project using [Riverpod](https://riverpod.dev/) as state management.
+- This project using [Riverpod](https://riverpod.dev/){:target="_blank" rel="noopener"} as state management.
 - To handle screen ratio, this app only run in `Potrait Mode`.
 - If running on offline mode and data ever loaded, this app will only display 20 of item and cannot load more item.
 - If running on offline mode and data never be loaded, this app will not show any data.
