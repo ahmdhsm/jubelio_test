@@ -1,4 +1,5 @@
-import '../../../util/util.dart';
+import 'package:dio/dio.dart';
+
 import 'product.dart';
 
 abstract class ProductModel {

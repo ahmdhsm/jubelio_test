@@ -19,11 +19,11 @@ void main() {
     ));
 
     await tester.pump(const Duration(seconds: 1));
-      await tester.pump(const Duration(seconds: 1));
-      await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 1));
 
-    final listFinder = find.byType(Scrollable);
-    final itemFinder = find.byKey(const ValueKey('item_50_text'));
+    final Finder listFinder = find.byType(Scrollable);
+    final Finder itemFinder = find.byKey(const ValueKey('item_50_text'));
 
     await binding.traceAction(
       () async {

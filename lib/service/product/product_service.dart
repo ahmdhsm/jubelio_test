@@ -1,5 +1,6 @@
+import 'package:dio/dio.dart';
+
 import '../../config/constants.dart';
-import '../../util/util.dart';
 import 'product.dart';
 
 class ProductService<T extends ProductModel> {

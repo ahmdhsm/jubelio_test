@@ -1,15 +1,15 @@
-import 'package:integration_test/integration_test_driver.dart';
 import 'package:flutter_driver/flutter_driver.dart' as driver;
+import 'package:integration_test/integration_test_driver.dart';
 
 Future<void> main() {
   return integrationDriver(
-    responseDataCallback: (data) async {
+    responseDataCallback: (Map<String, dynamic>? data) async {
       if (data != null) {
-        final timeline = driver.Timeline.fromJson(data['scrolling_timeline']);
+        final driver.Timeline timeline = driver.Timeline.fromJson(data['scrolling_timeline'] as Map<String, dynamic>);
 
         // Convert the Timeline into a TimelineSummary that's easier to
         // read and understand.
-        final summary = driver.TimelineSummary.summarize(timeline);
+        final driver.TimelineSummary summary = driver.TimelineSummary.summarize(timeline);
 
         // Then, write the entire timeline to disk in a json format.
         // This file can be opened in the Chrome browser's tracing tools

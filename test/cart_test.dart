@@ -14,7 +14,7 @@ Future<void> main() async {
     await productController.minQty(firstProduct);
   }
 
-  group('Counter', () {
+  group('Cart Check', () {
     test('Cart should start with 0', () async {
       final CartProductModel? cartProduct =
           productController.cartList[firstProduct.productCode];
